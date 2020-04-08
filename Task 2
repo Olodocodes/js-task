@@ -10,12 +10,10 @@ function interestCalculator(arr) {
 arr[i].interest=(arr[i].principal*arr[i].rate*arr[i].time)/100
     interestData.push (arr[3]);}
   
-    console.log(interestData)};
-    return interestData
+    console.log(interestData)
+    return interestData }
 
 // Calling the function 
 interestCalculator(data);
-
-
 
 
